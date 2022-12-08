@@ -1,0 +1,55 @@
+.historia p {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+}
+
+.persona h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+    color: rgb(255, 115, 0);
+}
+
+
+
+/*Inicio Nosotros @media*/
+
+@media screen and (min-width: 50px) and (max-width: 800px) {
+
+    .historia p {
+        padding: 8px;
+    }
+
+    .personas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .persona {
+        border-radius: 15px;
+        width: 75%;
+        padding: 8px;
+    }
+}
+
+/*Fin Nosotros @media*/
